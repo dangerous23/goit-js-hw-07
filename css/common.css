@@ -1,0 +1,69 @@
+ 
+/* :root {
+  --div-color: #F6F6FE;
+  --input-text-color: #808080;
+  --create-buttoon-color:#4E75FF;
+  --destroy-buttoon-color:#FF4E4E;
+} */
+
+
+/* ------------------------------------task 6---------------------------------------- */
+
+/* #controls {
+  display: flex;
+  justify-content: center;
+  width: 486px;
+  height: 104px;
+  border-radius:8px;
+  background-color:var(--div-color);
+    padding: 32px;
+  gap: 16px;
+  }
+  
+#controls input[type="number"]{
+width: 150px;
+height: 40px;
+border-radius:8px;
+border:1px solid var(--input-text-color);
+;
+padding: 8px, 72px, 8px, 72px;
+gap: 10px;
+}
+
+ button[data-create]{
+  width: 120px;
+  height: 40px;
+  border-radius:8px;
+ color: #FFFFFF;
+  background-color:var(--create-buttoon-color); 
+  border-color: var(--create-buttoon-color);
+  padding: 8px, 16px, 8px, 16px;
+  gap: 10px;
+  }
+
+  button[data-destroy]{
+    color: #FFFFFF;
+    width: 120px;
+    height: 40px;
+    border-radius:8px;
+    background-color: var(--destroy-buttoon-color);
+    border-color:var(--destroy-buttoon-color);
+    padding: 8px, 16px, 8px, 16px;
+    gap: 10px;
+    }
+    
+    #boxes {
+      display: flex;
+      flex-wrap: wrap;
+      width: 486px;
+      height: 134px;
+      margin-top:  16px;
+      border-radius: 8px;
+      padding: 32px;
+      gap: 10px;
+      background-color: var(--div-color);
+
+    } */
+    .custom-placeholder-color::placeholder {
+      color: #2e2f42; 
+    }
