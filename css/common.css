@@ -8,19 +8,78 @@
 
 
 /* ------------------------------------task 6---------------------------------------- */
-
-/* #controls {
-  display: flex;
-  justify-content: center;
+#boxes {
+width:426px;
+height: 70px;
+margin-top: 16px;
+background-color:#F6F6FE;
+border-radius: 8px;
+gap:44px;
+display: flex;
+align-items: flex-start;
+padding: 32px 28px 32px 32px;
+}
+#controls {
   width: 486px;
   height: 104px;
-  border-radius:8px;
-  background-color:var(--div-color);
-    padding: 32px;
+  background-color: #F6F6FE;
+  border-radius: 8px;
   gap: 16px;
+ 
+  }
+  button[data-create]{
+    border-radius:  8px;
+    border: solid 0px ;
+    width : 120px;
+    height:  40px;
+    padding:   8px 16px 8px 16px;
+    background-color:   #4E75FF;
+    font-family: Montserrat;
+    font-size:  16px;
+    line-height:   24px;
+    letter-spacing:   4%;
+    font-weight:   500px;
+    color:    #FFFFFF;
+    margin-right:  16px;
+
+
+
+  }
+button[data-destroy]{
+border-radius: 8px;
+border: solid 0px ;
+width : 120px;
+height: 40px;
+padding : 8px 16px 8px 16px;
+background-color :#FF4E4E;
+font-family: Montserrat;
+font-size:  16px;
+line-height: 24px;
+letter-spacing : 0.04em;
+font-weight: 500;
+color:  #FFFFFF;
+margin-right: 16px;
+}
+
+  input[type="number"] {
+    /* ваші стилі тут */
+    border-radius: 8px;
+    border: 1px solid #808080;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 32px 16px 32px 32px;
+    width: 150px;
+   height: 40px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    font-weight: 400px;
+    color:#2E2F42;
+    text-align: center;
   }
   
-#controls input[type="number"]{
+/* #controls input[type="number"]{
 width: 150px;
 height: 40px;
 border-radius:8px;
@@ -28,8 +87,8 @@ border:1px solid var(--input-text-color);
 ;
 padding: 8px, 72px, 8px, 72px;
 gap: 10px;
-}
-
+} */
+/* 
  button[data-create]{
   width: 120px;
   height: 40px;
